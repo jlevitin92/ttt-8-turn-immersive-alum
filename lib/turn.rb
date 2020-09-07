@@ -1,3 +1,10 @@
+def turn(board)
+
+  puts "Please enter 1-9:"
+  temp = gets
+  usermove = input_to_index(temp)
+
+end
 
 
 def valid_move?(board, index)
@@ -37,13 +44,5 @@ def move(board, index, player = "X")
     board[index] = player
   end
   update_array_at_with(board, index, player)
-
-end
-
-def turn(board)
-
-  puts "Please enter 1-9:"
-  temp = gets
-  usermove = input_to_index(temp)
 
 end
