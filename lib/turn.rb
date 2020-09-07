@@ -40,8 +40,8 @@ def move(board, index, player = "X")
 
 end
 
-def turn
+def turn(board)
 
-  
+
 
 end
