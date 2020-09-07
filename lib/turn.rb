@@ -44,6 +44,6 @@ def turn(board)
 
   puts "Please enter 1-9:"
   temp = gets
-  usermove = input_to_index(usermove)
+  usermove = input_to_index(temp)
 
 end
