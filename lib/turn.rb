@@ -5,6 +5,7 @@ def turn(board)
   usermove = input_to_index(temp)
   if valid_move?(board, usermove) == true
     move(board, usermove, "X")
+    display_board(board)
   else
     turn(board)
   end
